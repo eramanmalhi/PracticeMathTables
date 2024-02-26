@@ -1,0 +1,62 @@
+ .options {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+#multipleTablesBtn {
+    height: 50px;
+    width:100%;
+}
+  
+  .options button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .options button:hover {
+    background-color: #2980b9;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .math-table {
+    margin: 0 10px 20px;
+    text-align: center; 
+  }
+
+  .math-table table {
+    border-collapse: collapse;
+  }
+  
+  .math-table th,
+  .math-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .math-table input[type="text"] {
+    width: 50px;
+    padding: 5px;
+  }
+  
+  .math-table .wrong {
+    background-color: #ffcccc;
+  }
+  
+  .math-table .wrong i {
+    color: red;
+  }
+  
+  .math-table .correct input[type="text"] {
+    background-color: #a6f3a6; /* Light green */
+  }
